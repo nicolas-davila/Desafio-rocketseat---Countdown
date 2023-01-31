@@ -9,18 +9,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet" />
 
 </head>
 
 <body>
-
-  <header>
-    <img class="top" src="./assets/imagens/top-image.svg">
-  </header>
-
   <main>
     <div class="container">
+      <header>
+        <img class="top" src="./assets/imagens/top-image.svg">
+      </header>
       <div class="countdown">
         <p class="text-ready">Ready to launch in...</p>
         <div class="countdown-time">
@@ -41,12 +39,17 @@
             <p class="countdown-time-item-number" id="segundos">00</p>
           </div>
         </div>
+        <div class="span">
+          <p>Inscreva-se para saber mais sobre o lançamento</p>
+        </div>
+        <button class="button">
+          Inscreva-se
+        </button>
+      </div>
+      <div class="rocket">
+        <img src="./assets/imagens/rocket.svg" alt="foguete">
       </div>
     </div>
-    <button class="button">
-      Inscreva-se
-    </button>
-    <img class="rocket" src="./assets/imagens/rocket.svg" alt="foguete">
   </main>
 
   <script src="./script.js"></script>

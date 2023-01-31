@@ -1,14 +1,55 @@
-html, body {
-    width: 100%;
-    height: 100%;
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  overflow: hidden;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
 
 .text-ready {
-  text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2.25rem;
+  font-weight: 500;
   color: #6C63FF;
   font-family: 'Poppins', sons-serif;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   
+}
+
+.container {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.container .countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.1rem;
+}
+
+.span {
+  color: #C8C8C8;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sons-serif;
+  font-size: 15px;
 }
 
 .button {
@@ -23,29 +64,36 @@ html, body {
   width: 150px;
   margin-bottom: 20px;
   font-family: 'Poppins', sons-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  border: 2px solid #6C63FF;
+  color: var(--purple);
+  background: transparent;
 }
 
 .rocket {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .top {
   width: 100%;
 
-  position: absolute;
+  position:fixed;
   top: 0;
   right: 0;
 }
 
 .footer-img{
   width: 100%;
-  
+
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -3rem;
+  left: 0;
 }
 
 .container {
@@ -61,16 +109,39 @@ html, body {
   gap: 1rem;
 }
 
+.countdown-time-item {
+  margin-top: 1.18rem;
+  text-align: center;
+}
+
 .countdown-time-item-text {
+  font-size: 20px;
   font-family: 'Poppins', sons-serif;
 }
 
 .countdown-time-item-number {
+  font-size: 30px;
   font-family: 'Poppins', sons-serif;
 }
 
-@media (max-width: 720px) {
-  .rocket {
-    
+@media (max-width: 1080px) {
+  .container {
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 100px;
+  }
+
+  .text-ready {
+      font-size: 1.5rem;
+    }
+  
+  .container .rocket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .rocket img {
+    width: 80%;
   }
 }
