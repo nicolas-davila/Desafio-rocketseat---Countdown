@@ -80,6 +80,10 @@ main {
   justify-content: center;
 }
 
+.separador {
+  padding-left: 100px;
+}
+
 .top {
   width: 100%;
 
@@ -115,13 +119,15 @@ main {
 }
 
 .countdown-time-item-text {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Poppins', sons-serif;
+  font-weight: 400;
 }
 
 .countdown-time-item-number {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Poppins', sons-serif;
+  font-weight: 400;
 }
 
 @media (max-width: 1080px) {
