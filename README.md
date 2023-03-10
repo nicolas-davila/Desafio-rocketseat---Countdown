@@ -14,12 +14,11 @@ ser usado como exemplo para outros desafios. O desafio é:
   * Javascript.
 <hr>
 
-### Explicação das pastas:
+### Explicação das pastas e files:
 
-  * 'assets' => pasta onde está a minha estilização e imagens</li>
-  * 'css' => pasta onde está somente a minha estilização. (há outras pastas dentro de "css", mas são apenas dividas para melhor organizar. 
-  ex: ('cabecalho' => estilozação do cabeçalho)
-  * '' => pasta onde está todas as imagens que utilizei no portfólio</li>
+  * 'assets' => Pasta onde está a minha estilização e imagens;
+  * 'style.css' => File onde está somente a minha estilização;
+  * 'script.js' => File onde está todos os scripts.
 <hr>
 
 ### Inforrmações adicionais:
