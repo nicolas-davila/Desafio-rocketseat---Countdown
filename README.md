@@ -3,7 +3,7 @@
 Este repositório tem o objetivo de cumprir o desafio do rocketseat de nivel intermediário 
 ser usado como exemplo para outros desafios. O desafio é:
 
-   * Criar uma contagem regressiva, de preferência para o ano novo;
+   * Criar uma contagem regressiva. (de preferência para o ano novo);
    * Criar um "site" da contagem regressiva responsivo.
 <hr>
 
